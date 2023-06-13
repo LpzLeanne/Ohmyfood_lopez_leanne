@@ -277,12 +277,6 @@ header img {
     font-size: x-large;
 }
 
-.heart-gradient {
-    background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .heart-fill:hover {
     font-weight: 900;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -301,10 +295,6 @@ header img {
 
     2% {
         opacity: 0%;
-    }
-
-    50% {
-        opacity: 100%;
     }
 
     100% {
@@ -357,16 +347,16 @@ footer a {
         padding: 20px 50px 20px 50px;
     }
 
+    .functioning-button {
+        padding-right: 25px;
+    }
+
     .functioning-list {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 50px;
-    }
-    
-    .functioning-list h4 {
-        font-size: 12px;
+        gap: 30px;
     }
 
     .restaurants {
@@ -415,6 +405,10 @@ footer a {
         align-items: center;
         justify-content: space-between;
         padding: 20px 100px 30px 100px;
+    }
+
+    .functioning-button {
+        padding-right: 55px;
     }
 
     .functioning h2 {

@@ -90,10 +90,6 @@ main img {
         opacity: 0%;
     }
 
-    50% {
-        opacity: 100%;
-    }
-
     100% {
         opacity: 100%;
     }
@@ -325,23 +321,6 @@ footer a {
     .meal-title {
         margin-right: 590px;
     }
-
-    footer {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: right;
-        align-items: center;
-        gap: 40px;
-        padding: 40px 50px 10px 0px;
-    }
-
-    .help {
-        font-size: small;
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
-
 }
 
 /* Large devices (desktop, more than 1024px) */
@@ -387,16 +366,17 @@ footer a {
     }
 
     footer {
+        padding: 40px 50px 10px 0px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: right;
         align-items: center;
-        gap: 80px;
-        padding: 40px 50px 10px 0px;
+        gap: 80px;        
     }
 
     .help {
-        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
     }
-
 }
